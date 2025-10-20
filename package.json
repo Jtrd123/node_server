@@ -1,15 +1,16 @@
 {
   "name": "node_server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no teßst specified\" && exit 1",
     "start": "nodemon ./bin/www"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }
