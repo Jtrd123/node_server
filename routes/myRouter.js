@@ -13,4 +13,12 @@ router.get('/',(req,res)=>{
   })
 })
 
+router.get('/addForm',(req,res)=>{
+  res.render('form')
+})
+
+router.get('/manage',(req,res)=>{
+  res.render('manage')
+})
+
 module.exports = router;
