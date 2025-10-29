@@ -21,4 +21,9 @@ router.get('/manage',(req,res)=>{
   res.render('manage')
 })
 
+router.post('/insert',(req,res)=>{
+  console.log(req.body.name)
+  res.render('form')
+})
+
 module.exports = router;
